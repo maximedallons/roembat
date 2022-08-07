@@ -14,4 +14,10 @@
         background-image: url("../images/hero-bg.jpg");
         background-size: cover;
     }
+    .active{
+        @apply text-accent;
+    }
+    .activeDrawer{
+        @apply bg-primary text-black;
+    }
 }
